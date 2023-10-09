@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MeuMundo
+comment0.text=\r\n\ Mundo\ simples\ criado\ apenas\ para\ mostrar\ exemplo\ de\ vetores.\r\n\ \r\n\ @author\ Julio\ C\u00E9sar\ Alves\r\n\ @version\ 2023.10.09\r\n
+comment1.params=
+comment1.target=MeuMundo()
+comment1.text=\r\n\ Constroi\ um\ objeto\ MeuMundo\r\n\ \r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepara\ o\ mundo\ para\ o\ in\u00EDcio\ do\ programa.\r\n\ Ou\ seja\:\ criar\ os\ objetos\ iniciais\ e\ adicion\u00E1-los\ ao\ mundo.\r\n
+numComments=3

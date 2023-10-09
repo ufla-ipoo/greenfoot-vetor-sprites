@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Cavaleiro
+comment0.text=\r\n\ Classe\ que\ representa\ um\ Cavaleiro.\r\n\ Usada\ como\ exemplo\ de\ vetores\ e\ anima\u00E7\u00E3o\ de\ sprites.\r\n\ \r\n\ @author\ Julio\ C\u00E9sar\ Alves\r\n\ @version\ 2023.10.09\r\n
+comment1.params=
+comment1.target=Cavaleiro()
+comment1.text=\r\n\ Cria\ um\ objeto\ cavaleiro.\ Carrega\ as\ imagens\ e\ define\ a\ imagem\ inicial.\r\n
+comment2.params=prefixo\ numeroDeImagens
+comment2.target=greenfoot.GreenfootImage[]\ carregarImagens(java.lang.String,\ int)
+comment2.text=\r\n\ Carrega\ um\ conjunto\ de\ imagens\ com\ mesmo\ prefixo\ de\ arquivo.\r\n\ O\ m\u00E9todo\ carrega\ imagens\ no\ formato\:\ prefixo\ (1).png,\ prefixo\ (2).png,\ etc.\r\n\ \r\n\ @param\ prefixo\ Prefixo\ dos\ arquivos\ (ex.\:\ 'Idle',\ 'Walk',\ etc.).\r\n\ @param\ numeroDeImagens\ Quantidade\ de\ imagens\ a\ serem\ carregadas\r\n
+comment3.params=imagens
+comment3.target=greenfoot.GreenfootImage[]\ copiaImagensInvertidasHorizontalmente(greenfoot.GreenfootImage[])
+comment3.text=\r\n\ Copia\ as\ imagens\ do\ vetor\ passado\ e\ retorna\ um\ vetor\ com\ as\ imagens\ invertidas\r\n\ horizontalmente\r\n
+comment4.params=
+comment4.target=void\ tratarMovimento()
+comment4.text=\r\n\ Trata\ o\ movimento\ do\ cavaleiro.\ Ele\ pode\ ser\ movimentar\ para\ a\ direta\ e\ para\ \r\n\ a\ esquerda.\ Atualiza\ tanto\ a\ posi\u00E7\u00E3o\ do\ cavaleiro\ quanto\ a\ 'acaoAtual'.\r\n\r\n
+comment5.params=
+comment5.target=greenfoot.GreenfootImage[]\ obterImagensAcaoAtual()
+comment5.text=\r\n\ Retorna\ o\ vetor\ de\ imagens\ correspondente\ \u00E0\ a\u00E7\u00E3o\ atual\ do\ cavaleiro.\r\n\ Retorna\ null\ se\ \u00E9\ uma\ a\u00E7\u00E3o\ desconhecida.\r\n
+comment6.params=
+comment6.target=void\ tratarAtualizacaoImagem()
+comment6.text=\r\n\ Trata\ a\ atualiza\u00E7\u00E3o\ da\ imagem\ do\ cavaleiro.\ Basicamente\ exibe\ a\ pr\u00F3xima\r\n\ imagem\ do\ vetor\ de\ imagens\ da\ a\u00E7\u00E3o\ do\ cavaleiro\ a\ cada\ X\ passos\ (onde\r\n\ X\ \u00E9\ guardado\ no\ atributo\ 'passosParaAtualizarImagem').\r\n
+comment7.params=
+comment7.target=void\ act()
+comment7.text=\r\n\ Act\ -\ fazo\ que\ o\ Cavaleiro\ quer\ fazer.\ Este\ m\u00E9todo\ \u00E9\ chamado\ sempre\ \r\n\ que\ o\ bot\u00E3o\ 'Executar\ uma\ vez'\ ou\ 'Executar'\ \u00E9\ clicado.\r\n
+numComments=8
